@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import IconStar from '../../../atoms/icons-big/IconStar';
+import IconStar from '../../../@atoms/icons-big/IconStar';
 import './CardCongratsShoppingListEmpty.scss';
 
 export default function CardCongratsShoppingListEmpty() {
