@@ -4,6 +4,7 @@ import {
   ProductFilterConditionsContext,
 } from '../../../../providers/ProductFilterConditionsProvider/ProductFilterConditionsContext';
 import { ProductFilterModalContext } from '../../../../providers/ProductFilterModalProvider/ProductFilterModalContext';
+import BoxProductFilterTags from '../../boxes/BoxProductFilterTags';
 import BoxProductList from '../../boxes/BoxProductList';
 import './SectionProductList.scss';
 

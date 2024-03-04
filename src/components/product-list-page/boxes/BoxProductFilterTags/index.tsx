@@ -1,5 +1,6 @@
 import React from 'react';
 import { ProductFilterConditionsContext } from '../../../../providers/ProductFilterConditionsProvider/ProductFilterConditionsContext';
+import TagProductFilterList from '../../list-of-tags/TagProductFilterList';
 import './BoxProductFilterTags.scss';
 
 export default function BoxProductFilterTags() {

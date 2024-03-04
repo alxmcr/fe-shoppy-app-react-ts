@@ -1,0 +1,24 @@
+@import '../../../../variables';
+
+.tag-product-filter {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+
+  background-color: $dark;
+  border-radius: 0.5rem;
+  color: $light;
+  height: 3rem;
+  padding: 0.5rem;
+
+  &__btn-remove {
+    cursor: pointer;
+
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    color: $light;
+    padding: 0;
+  }
+}
