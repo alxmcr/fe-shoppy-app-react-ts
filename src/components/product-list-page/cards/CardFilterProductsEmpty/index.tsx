@@ -1,10 +1,22 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import IconInfo from '../../../atoms/icons-big/IconInfo';
+import { ProductFilterConditionsContext } from '../../../../providers/ProductFilterConditionsProvider/ProductFilterConditionsContext';
 import './CardFilterProductsEmpty.scss';
+import IconInfo from '../../../atoms/icons-big/IconInfo';
 
 export default function CardFilterProductsEmpty() {
+  const {
+    setFilterProductName,
+    setFilterProductFreqTime,
+    setFilterProductTags,
+  } = React.useContext(ProductFilterConditionsContext);
+
   const onClickResetFilter = () => {
-    console.log('reset filter');
+    setFilterProductName('');
+    setFilterProductFreqTime(null);
+
+    // Reset filter tags
+    setFilterProductTags([]);
   };
 
   return (

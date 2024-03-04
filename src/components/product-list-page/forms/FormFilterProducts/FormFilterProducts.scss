@@ -1,0 +1,73 @@
+@import '../../../../variables';
+
+.form-filter-products {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__button {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid $light-secondary;
+    border-radius: 0.5rem;
+    font-size: $font-size-buttons;
+    color: $light-secondary;
+    height: $button-save-height;
+    width: 100%;
+
+    &:hover {
+      background-color: $primary;
+      border: 1px solid $primary;
+      color: $dark;
+    }
+  }
+
+  &__fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__formfield {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__input {
+    background-color: transparent;
+    border: 1px solid $light-secondary;
+    border-radius: 0.5rem;
+    color: invert($color: $body-bg-color);
+    font-size: $font-size-input-text;
+    height: $input-name-height;
+    padding: 0.5rem 1rem;
+
+    &:focus {
+      border: 1px solid $primary;
+    }
+  }
+
+  &__label {
+    color: $dark-secondary;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    gap: 0.75rem;
+  }
+
+  &__legend {
+    color: $dark-secondary;
+    font-weight: 700;
+
+    padding: 0;
+    padding-bottom: 1rem;
+  }
+}

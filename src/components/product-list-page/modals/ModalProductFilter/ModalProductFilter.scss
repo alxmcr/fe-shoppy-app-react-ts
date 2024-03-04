@@ -1,0 +1,33 @@
+@import '../../../../variables';
+
+.modal-product-filter {
+  background-color: $light;
+  padding: 20px;
+  width: 100%;
+  max-width: 375px;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+
+  &__btn-close {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: $font-size-buttons;
+    color: $light-secondary;
+    height: $button-apply-filter-height;
+    cursor: pointer;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
