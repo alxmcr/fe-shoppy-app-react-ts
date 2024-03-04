@@ -1,8 +1,9 @@
 import { formatDate } from 'date-fns';
 import { enUS } from 'date-fns/locale';
-import AppHeader from '../../components/header/AppHeader';
-import FooterNavigation from '../../components/navigation/FooterNavigation';
-import SectionFormAddProduct from '../../components/sections/SectionFormAddProduct';
+
+import SectionFormAddProduct from '../../components/add-product-page/sections/SectionFormAddProduct';
+import FooterNavigation from '../../components/common/footer/FooterNavigation';
+import AppHeader from '../../components/common/header/AppHeader';
 import { FORMAT_DATES } from '../../constants/constants-dates';
 import './AddProductPage.scss';
 

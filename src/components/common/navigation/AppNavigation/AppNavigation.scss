@@ -1,0 +1,40 @@
+@import '../../../../variables';
+
+.app-navigation {
+  width: 100%;
+
+  &__list-links {
+    list-style: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    display: flex;
+  }
+
+  &__list-item {
+    flex-grow: 1;
+  }
+
+  &__link {
+    display: flex;
+    color: $gray-02;
+    align-items: center;
+    justify-content: center;
+    height: $navlink-height;
+    width: $navlink-width;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+      background-color: $primary;
+      color: $dark;
+    }
+
+    &--active {
+      background-color: $primary;
+      color: $dark;
+    }
+  }
+}
