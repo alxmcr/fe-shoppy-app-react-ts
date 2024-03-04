@@ -1,0 +1,29 @@
+@import '../../../../variables';
+
+.box-create-product-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  &__button {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid $primary;
+    border-radius: 0.5rem;
+    font-size: $font-size-buttons;
+    color: $primary;
+    height: $button-join-token-height;
+
+    &:hover {
+      background-color: $primary;
+      border: 1px solid $primary;
+      color: $dark;
+    }
+  }
+
+  &__message {
+    color: $light-secondary;
+    margin: 0;
+  }
+}

@@ -1,9 +1,13 @@
+import SectionJoinProductList from '../../components/home-page/sections/SectionJoinProductList';
+import SectionPresentationApp from '../../components/home-page/sections/SectionPresentationApp';
 import './HomePage.scss';
 
 export default function HomePage() {
   return (
-    <main>
-      <h1>Home page</h1>
-    </main>
+    <div className="home-page">
+      <SectionPresentationApp />
+      <hr />
+      <SectionJoinProductList />
+    </div>
   );
 }
