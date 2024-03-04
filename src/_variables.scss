@@ -1,0 +1,113 @@
+// Typography
+$font-family: 'Inter', sans-serif;
+// Strong Colors
+$dark: #000;
+$light: #fff;
+$primary: #dbff00;
+
+// Grays
+$gray-01: #8288a1;
+$gray-02: #d0d0d0;
+$semi-transparent: rgba(0, 0, 0, 0.5);
+
+// Light colors
+$dark-secondary: #4f2d97;
+$light-secondary: #bfa0ff;
+
+// Product colors
+$product-soon: #ba0000;
+$product-kind-of-soon: #0054ff;
+$product-not-soon: #006200;
+$product-inactive: #006a91;
+$product-overdue: #950094;
+
+// Radio colors
+$radio-unchecked: transparent;
+$radio-checked: $dark-secondary;
+
+// Gradients
+$linear-gradient-page: linear-gradient(
+  192.06deg,
+  $dark-secondary 0%,
+  $dark 100%
+);
+
+// Background color
+$body-bg-color: #fff0f0;
+$body-bg-color-secondary: #3e00a6;
+$page-bg-color: #fff0f0;
+
+// Font sizes: buttons
+$font-size-buttons: 1rem;
+// Font sizes: input text
+$font-size-input-text: 1.125rem;
+
+// Nav links
+$navlink-width: 100%;
+$navlink-height: 4rem;
+$link-as-button-height: 3rem;
+
+// Buttons: new list
+$button-new-list-width: 100%;
+$button-new-list-height: 2.1875rem;
+
+// Buttons: join list
+$button-join-token-height: $button-new-list-height;
+
+// Button: apply / reset filter
+$button-apply-filter-height: $button-new-list-height;
+
+// Buttons: delete
+$button-delete-height: 2.375rem;
+$button-delete-width: $button-delete-height;
+
+// Buttons: save
+$button-save-height: 3.375rem;
+$button-save-width: $button-save-height;
+
+// Input text
+$input-name-height: $button-save-width;
+$input-join-token-height: $button-join-token-height;
+
+// Input checkbox
+$input-checkbox-height: 2.5625rem;
+$input-checkbox-width: $input-checkbox-height;
+
+// Input radio
+$input-radio-height: 2.5rem;
+$input-radio-width: $input-radio-height;
+$input-radio-internal-height: $input-radio-height - 1.25rem;
+$input-radio-internal-width: $input-radio-internal-height;
+
+// Input radio: Pseudoelements
+$height-radio-button: 2.5rem;
+$width-radio-button: $height-radio-button;
+
+// Input radio: offset
+$offset-circle-radio-button: 1.25rem;
+
+// Input radio: Circle
+$height-radio-button-internal: $height-radio-button -
+  $offset-circle-radio-button;
+$width-radio-button-internal: $height-radio-button-internal;
+
+// Screen widths
+$max-screen-width-app: 25rem;
+
+// Product Item
+$product-item-height: 4rem;
+$product-item-width: 100%;
+
+// Box - Token
+$height-box-token: 2.75rem;
+
+// Font sizes: Titles
+$font-size-h1: 1.5rem;
+$font-size-h2: 1rem;
+
+// Font sizes: links
+$font-size-navlink: 1rem;
+
+// Padding
+$padding-main-container: 1rem;
+$padding-link: 0 1rem;
