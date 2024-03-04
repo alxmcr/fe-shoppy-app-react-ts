@@ -1,5 +1,4 @@
 import React from 'react';
-import { TokenContext } from '../../../../providers/TokenProvider/TokenContext';
 import './FormJoinProductList.scss';
 
 type FormJoinProductListProps = {
@@ -11,17 +10,19 @@ export default function FormJoinProductList({
   onJoinProductList,
   resetStateJoinList,
 }: FormJoinProductListProps) {
-  const { token, setToken } = React.useContext(TokenContext);
+  const [tokenInput, setTokenInput] = React.useState('');
 
   const onChangeToken = (ev: React.ChangeEvent<HTMLInputElement>) => {
-    setToken(ev.target.value);
+    setTokenInput(ev.target.value);
+
+    // Reset state
     resetStateJoinList();
   };
 
   const handlerFormJoinProductList = (ev: React.FormEvent<HTMLFormElement>) => {
     ev.preventDefault();
     // Joining to some product list
-    onJoinProductList(token);
+    onJoinProductList(tokenInput);
   };
 
   return (
@@ -40,7 +41,7 @@ export default function FormJoinProductList({
           type="text"
           id="id-list-token"
           name="token-input"
-          value={token}
+          value={tokenInput}
           onChange={onChangeToken}
           placeholder="Enter a token"
           data-cy="cy-token-input"
