@@ -9,8 +9,12 @@
     "preview": "vite preview",
     "lint": "npx eslint src",
     "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier src --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run prettier:fix && npm run lint:fix"
   },
   "dependencies": {
+    "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
