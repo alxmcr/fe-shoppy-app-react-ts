@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-    ProductFilterConditions,
-    ProductFilterConditionsContext,
+  ProductFilterConditions,
+  ProductFilterConditionsContext,
 } from '../../../../providers/ProductFilterConditionsProvider/ProductFilterConditionsContext';
 import { ProductFilterModalContext } from '../../../../providers/ProductFilterModalProvider/ProductFilterModalContext';
 import ModalContainer from '../../../common/modals/ModalContainer';

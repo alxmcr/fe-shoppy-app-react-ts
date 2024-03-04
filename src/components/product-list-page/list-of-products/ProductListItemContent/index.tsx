@@ -5,7 +5,12 @@ import toast from 'react-hot-toast';
 import { Product } from '../../../../@types/appTypes';
 import { FirebaseDBProductServiceImpl } from '../../../../api/FirebaseProductServiceImpl';
 import { FIREBASE_MAIN_SUBCOLLECTION } from '../../../../constants/constants-firebase';
-import { getDaysForPreviousEstimate, getDaysSinceLastPurchase, getStatusProduct, shouldItStillPurchased } from '../../../../helpers/helpers-products';
+import {
+  getDaysForPreviousEstimate,
+  getDaysSinceLastPurchase,
+  getStatusProduct,
+  shouldItStillPurchased,
+} from '../../../../helpers/helpers-products';
 import { calculateEstimate } from '../../../../helpers/helpers-tcl';
 import { mapperProductToDocumentData } from '../../../../helpers/mappers-firebase';
 import { TokenContext } from '../../../../providers/TokenProvider/TokenContext';
