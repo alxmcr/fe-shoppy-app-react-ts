@@ -5,7 +5,7 @@ import useProducts from '../../../../hooks/useProducts';
 import { TokenContext } from '../../../../providers/TokenProvider/TokenContext';
 import CardProductListError from '../../cards/CardProductListError';
 import CardProductListLoading from '../../cards/CardProductListLoading';
-import ProductList from '../../lists-of-products/ProductList';
+import ProductList from '../../list-of-products/ProductList';
 import './BoxProductList.scss';
 
 export default function BoxProductList() {
