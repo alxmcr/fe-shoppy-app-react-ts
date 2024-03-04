@@ -1,9 +1,11 @@
 import React from 'react';
 import { LoadingStates } from '../../../../constants/constants-app';
+import { sortProductsByStatusPurchase } from '../../../../helpers/helpers-products';
 import useProducts from '../../../../hooks/useProducts';
 import { TokenContext } from '../../../../providers/TokenProvider/TokenContext';
 import CardProductListError from '../../cards/CardProductListError';
 import CardProductListLoading from '../../cards/CardProductListLoading';
+import ProductList from '../../lists/ProductList';
 import './BoxProductList.scss';
 
 export default function BoxProductList() {

@@ -1,0 +1,26 @@
+@import '../../../../variables';
+
+.product-list-item-content {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+
+  &__name {
+    font-weight: 800;
+    text-transform: uppercase;
+
+    &--purchased {
+      font-style: italic;
+      text-decoration: line-through;
+    }
+  }
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__wrapper-check-icon {
+    height: $input-checkbox-height;
+    width: $input-checkbox-width;
+  }
+}

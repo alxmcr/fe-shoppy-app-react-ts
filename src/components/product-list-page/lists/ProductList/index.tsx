@@ -1,6 +1,7 @@
 import { Product } from '../../../../@types/appTypes';
 import CardCongratsShoppingListEmpty from '../../cards/CardCongratsShoppingListEmpty';
 import CardFilterProductsEmpty from '../../cards/CardFilterProductsEmpty';
+import ProductListItem from '../ProductListItem';
 import './ProductList.scss';
 
 type ProductListProps = {
