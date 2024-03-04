@@ -1,0 +1,53 @@
+@import '../../../../variables';
+
+.form-join-product-list {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  &__button {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid $primary;
+    border-radius: 0.5rem;
+    font-size: $font-size-buttons;
+    color: $primary;
+    height: $button-join-token-height;
+
+    &:hover {
+      background-color: $primary;
+      border: 1px solid $primary;
+      color: $dark;
+    }
+  }
+
+  &__formfield {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  &__input {
+    background-color: transparent;
+    border: 1px solid $light-secondary;
+    border-radius: 0.5rem;
+    color: $primary;
+    padding: 0.5rem;
+    height: $input-join-token-height;
+
+    &:focus {
+      border: 1px solid $primary;
+    }
+  }
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-grow: 1;
+  }
+
+  &__text {
+    color: $primary;
+  }
+}
