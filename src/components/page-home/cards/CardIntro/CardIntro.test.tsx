@@ -11,9 +11,7 @@ describe('CardIntro test', () => {
 
     // UI elements
     const title = screen.getByRole('heading', { name: APP_NAME });
-    const description = screen.getByRole('paragraph', {
-      name: APP_DESCRIPTION,
-    });
+    const description = screen.getByText(APP_DESCRIPTION);
 
     // assertions
     expect(title).toBeInTheDocument();
