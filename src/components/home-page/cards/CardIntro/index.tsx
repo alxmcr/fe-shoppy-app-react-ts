@@ -1,4 +1,4 @@
-import ShopyLogo from '../../atoms/logos/ShopyLogo';
+import ShopyLogo from '../../../atoms/logos/ShopyLogo';
 import './CardIntro.scss';
 
 export default function CardIntro() {
