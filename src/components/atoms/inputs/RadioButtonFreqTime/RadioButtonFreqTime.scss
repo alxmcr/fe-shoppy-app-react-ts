@@ -1,0 +1,48 @@
+@import '../../../../variables';
+
+.frequency-time {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+
+  // 1. Radio Hidden
+  &__radio_button {
+    opacity: 0;
+    position: absolute;
+    left: -6.1875rem;
+    pointer-events: none;
+  }
+
+  // 2. Custom - Circle External
+  &__circle {
+    border: 1px solid $dark-secondary;
+    border-radius: 50%;
+    height: $height-radio-button;
+    width: $width-radio-button;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  // 3. Custom - Circle Internal
+  &__circle:before {
+    content: '';
+    height: $height-radio-button-internal;
+    width: $width-radio-button-internal;
+
+    border-radius: 50%;
+    background-color: $radio-unchecked;
+  }
+
+  // 4. Checked
+  &__radio_button:checked + &__circle {
+    &:before {
+      background-color: $radio-checked;
+    }
+  }
+
+  &__text {
+    color: $dark-secondary;
+  }
+}
