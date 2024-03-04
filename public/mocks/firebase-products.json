@@ -1,0 +1,50 @@
+[
+    {
+        "pr_product": "product-001",
+        "pr_name": "Chocolate",
+        "pr_next_purchase_at": "2024-03-03T06:07:52.956Z",
+        "pr_total_purchases": 0,
+        "pr_last_purchase_at": null,
+        "pr_created_at": "2024-02-25T06:07:54.953Z"
+    },
+    {
+        "pr_product": "product-002",
+        "pr_name": "Milk",
+        "pr_created_at": "2023-11-05T18:38:12.131Z",
+        "pr_last_purchase_at": null,
+        "pr_next_purchase_at": "2023-11-19T18:38:10.679Z",
+        "pr_total_purchases": 0
+    },
+    {
+        "pr_product": "product-003",
+        "pr_name": "apple",
+        "pr_next_purchase_at": "2024-02-03T22:53:29.929Z",
+        "pr_created_at": "2024-01-20T22:53:31.836Z",
+        "pr_total_purchases": 0,
+        "pr_last_purchase_at": null
+    },
+    {
+        "pr_product": "product-004",
+        "pr_name": "banana",
+        "pr_next_purchase_at": "2024-03-25T03:20:35.519Z",
+        "pr_created_at": "2024-02-24T03:20:39.254Z",
+        "pr_total_purchases": 0,
+        "pr_last_purchase_at": null
+    },
+    {
+        "pr_product": "product-005",
+        "pr_name": "peach",
+        "pr_next_purchase_at": "2024-03-02T03:21:26.810Z",
+        "pr_created_at": "2024-02-24T03:21:28.387Z",
+        "pr_total_purchases": 0,
+        "pr_last_purchase_at": null
+    },
+    {
+        "pr_product": "product-006",
+        "pr_name": "sandia",
+        "pr_created_at": "2023-10-30T02:21:48.772Z",
+        "pr_next_purchase_at": "2023-11-13T02:21:47.034Z",
+        "pr_last_purchase_at": null,
+        "pr_total_purchases": 0
+    }
+]
