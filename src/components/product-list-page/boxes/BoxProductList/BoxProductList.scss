@@ -1,0 +1,26 @@
+@import '../../../../variables';
+
+.box-product-list {
+  display: flex;
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 1rem 0;
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px $dark;
+    -webkit-box-shadow: inset 0 0 1px $dark;
+    background-color: $light-secondary;
+  }
+
+  &::-webkit-scrollbar {
+    height: 4px;
+    width: 5px;
+    background-color: $light-secondary;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    height: 4px;
+    width: 1px;
+    background-color: $dark;
+  }
+}
