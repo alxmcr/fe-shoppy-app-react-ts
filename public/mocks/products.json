@@ -1,0 +1,104 @@
+[
+    {
+        "idProduct": "uC1ENvSKcktpbthSttGb",
+        "name": "Candy",
+        "createdAt": {
+            "nanoseconds": 0,
+            "seconds": 1698727734
+        },
+        "totalPurchases": 2,
+        "lastPurchaseAt": {
+            "nanoseconds": 0,
+            "seconds": 1698727734
+        },
+        "nextPurchaseAt": {
+            "nanoseconds": 0,
+            "seconds": 1698727734
+        }
+    },
+    {
+        "idProduct": "Y0v3N5XpCJ570jTY7Mrh",
+        "name": "frutilla",
+        "createdAt": {
+            "nanoseconds": 4000000,
+            "seconds": 1698728109
+        },
+        "totalPurchases": 2,
+        "lastPurchaseAt": {
+            "nanoseconds": 823000000,
+            "seconds": 1677647200
+        },
+        "nextPurchaseAt": {
+            "nanoseconds": 901000000,
+            "seconds": 1699419998
+        }
+    },
+    {
+        "idProduct": "r4Fs5E1mUCMwI3UXHxsy",
+        "name": "higo-not-soon",
+        "createdAt": {
+            "nanoseconds": 190000000,
+            "seconds": 1699045296
+        },
+        "totalPurchases": 2,
+        "lastPurchaseAt": {
+            "nanoseconds": 876000000,
+            "seconds": 1697778935
+        },
+        "nextPurchaseAt": {
+            "nanoseconds": 66000000,
+            "seconds": 1699074935
+        }
+    },
+    {
+        "idProduct": "wIrnO3lkOpPe1eAbWqNC",
+        "name": "pelota",
+        "createdAt": {
+            "nanoseconds": 350000000,
+            "seconds": 1699045281
+        },
+        "totalPurchases": 3,
+        "lastPurchaseAt": {
+            "nanoseconds": 369000000,
+            "seconds": 1699075067
+        },
+        "nextPurchaseAt": {
+            "nanoseconds": 826000000,
+            "seconds": 1701062265
+        }
+    },
+    {
+        "idProduct": "1GCOsg46VT91nhUi2qUa",
+        "name": "pineapple",
+        "createdAt": {
+            "nanoseconds": 346000000,
+            "seconds": 1698727888
+        },
+        "totalPurchases": 2,
+        "lastPurchaseAt": {
+            "nanoseconds": 436000000,
+            "seconds": 1697605605
+        },
+        "nextPurchaseAt": {
+            "nanoseconds": 733000000,
+            "seconds": 1699420004
+        }
+    },
+    {
+        "idProduct": "6bDicLEcgpOgBuuLA8SR",
+        "name": "uva",
+        "createdAt": {
+            "nanoseconds": 786000000,
+            "seconds": 1698727790
+        },
+        "totalPurchases": 2,
+        "lastPurchaseAt": {
+            "nanoseconds": 988000000,
+            "seconds": 1695338084
+        },
+        "nextPurchaseAt": {
+            "nanoseconds": 662000000,
+            "seconds": 1698989160
+        }
+    }
+]
