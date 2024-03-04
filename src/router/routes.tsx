@@ -1,5 +1,5 @@
 import { RouteObject } from 'react-router-dom';
-import CardRouterError from '../components/react-router/cards/CardRouterError';
+import CardRouterError from '../components/@react-router/cards/CardRouterError';
 import {
   AddProductRoute,
   HomeRoute,

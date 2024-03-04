@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import IconCart from '../../../atoms/icons-medium/IconCart';
-import IconCirclePlus from '../../../atoms/icons-medium/IconCirclePlus';
+import IconCart from '../../../@atoms/icons-medium/IconCart';
+import IconCirclePlus from '../../../@atoms/icons-medium/IconCirclePlus';
 import './AppNavigation.scss';
 
 export default function AppNavigation() {

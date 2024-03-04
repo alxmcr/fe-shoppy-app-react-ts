@@ -1,5 +1,5 @@
 import { TagProductFilter } from '../../../../@types/appTypes';
-import IconCircleCrossSmall from '../../../atoms/icons-small/IconCircleCrossSmall';
+import IconCircleCrossSmall from '../../../@atoms/icons-small/IconCircleCrossSmall';
 import './TagProductFilterItem.scss';
 
 type TagProductFilterItemProps = {

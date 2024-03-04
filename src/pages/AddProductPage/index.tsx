@@ -1,7 +1,7 @@
 import { formatDate } from 'date-fns';
 import { enUS } from 'date-fns/locale';
 
-import SectionFormAddProduct from '../../components/add-product-page/sections/SectionFormAddProduct';
+import SectionFormAddProduct from '../../components/page-add-product/sections/SectionFormAddProduct';
 import FooterNavigation from '../../components/common/footer/FooterNavigation';
 import AppHeader from '../../components/common/header/AppHeader';
 import { FORMAT_DATES } from '../../constants/constants-dates';

@@ -4,7 +4,7 @@ import { Product } from '../../../../@types/appTypes';
 import { FirebaseDBProductServiceImpl } from '../../../../api/FirebaseProductServiceImpl';
 import { FIREBASE_MAIN_SUBCOLLECTION } from '../../../../constants/constants-firebase';
 import { TokenContext } from '../../../../providers/TokenProvider/TokenContext';
-import IconCross from '../../../atoms/icons-medium/IconCross';
+import IconCross from '../../../@atoms/icons-medium/IconCross';
 import './ProductListItemActions.scss';
 
 type ProductListItemActionsProps = {

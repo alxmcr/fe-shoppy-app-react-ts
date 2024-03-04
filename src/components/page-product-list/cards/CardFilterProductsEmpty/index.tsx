@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { ProductFilterConditionsContext } from '../../../../providers/ProductFilterConditionsProvider/ProductFilterConditionsContext';
 import './CardFilterProductsEmpty.scss';
-import IconInfo from '../../../atoms/icons-big/IconInfo';
+import IconInfo from '../../../@atoms/icons-big/IconInfo';
 
 export default function CardFilterProductsEmpty() {
   const {

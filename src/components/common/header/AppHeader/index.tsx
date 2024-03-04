@@ -5,9 +5,9 @@ import { KEY_TOKEN } from '../../../../constants/constants-app';
 import { ProductListRoute } from '../../../../constants/constants-routes';
 import { ProductFilterModalContext } from '../../../../providers/ProductFilterModalProvider/ProductFilterModalContext';
 import { TokenContext } from '../../../../providers/TokenProvider/TokenContext';
-import IconCopy from '../../../atoms/icons-medium/IconCopy';
-import IconExit from '../../../atoms/icons-medium/IconExit';
-import IconFilter from '../../../atoms/icons-medium/IconFilter';
+import IconCopy from '../../../@atoms/icons-medium/IconCopy';
+import IconExit from '../../../@atoms/icons-medium/IconExit';
+import IconFilter from '../../../@atoms/icons-medium/IconFilter';
 import './AppHeader.scss';
 
 type AppHeaderProps = {

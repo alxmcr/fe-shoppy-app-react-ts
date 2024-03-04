@@ -14,8 +14,8 @@ import {
 import { calculateEstimate } from '../../../../helpers/helpers-tcl';
 import { mapperProductToDocumentData } from '../../../../helpers/mappers-firebase';
 import { TokenContext } from '../../../../providers/TokenProvider/TokenContext';
-import IconCircle from '../../../atoms/icons-medium/IconCircle';
-import IconCircleCheck from '../../../atoms/icons-medium/IconCircleCheck';
+import IconCircle from '../../../@atoms/icons-medium/IconCircle';
+import IconCircleCheck from '../../../@atoms/icons-medium/IconCircleCheck';
 import './ProductListItemContent.scss';
 
 type ProductListItemContentProps = {
