@@ -1,4 +1,5 @@
-import TokenProvider from './TokenProvider';
+import ProductFilterConditionsProvider from './ProductFilterConditionsProvider';
+import ProductFilterModalProvider from './ProductFilterModalProvider';
 
 type ProductListProvidersProps = {
   children: React.ReactNode;
@@ -7,5 +8,9 @@ type ProductListProvidersProps = {
 export default function ProductListProviders({
   children,
 }: ProductListProvidersProps) {
-  return <TokenProvider>{children}</TokenProvider>;
+  return (
+    <ProductFilterConditionsProvider>
+      <ProductFilterModalProvider>{children}</ProductFilterModalProvider>
+    </ProductFilterConditionsProvider>
+  );
 }
