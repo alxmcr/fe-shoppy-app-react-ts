@@ -1,5 +1,5 @@
 import { ProductFilterConditions } from '../../../../providers/ProductFilterConditionsProvider/ProductFilterConditionsContext';
-import IconCircleCross from '../../../atoms/icons-medium/IconCircleCross';
+import IconCircleCross from '../../../@atoms/icons-medium/IconCircleCross';
 import FormFilterProducts from '../../forms/FormFilterProducts';
 import './ModalProductFilter.scss';
 
