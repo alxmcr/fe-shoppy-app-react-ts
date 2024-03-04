@@ -7,6 +7,7 @@ import { ProductFilterModalContext } from '../../../../providers/ProductFilterMo
 import BoxProductFilterTags from '../../boxes/BoxProductFilterTags';
 import BoxProductList from '../../boxes/BoxProductList';
 import './SectionProductList.scss';
+import ModalContainer from '../../../common/modals/ModalContainer';
 
 export default function SectionProductList() {
   const { showFilterProductModal, setShowFilterProductModal } =
