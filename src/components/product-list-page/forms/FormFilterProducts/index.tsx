@@ -1,13 +1,13 @@
 import React from 'react';
 import {
-    FrequencyTimeToBuy,
-    TagProductFilter,
+  FrequencyTimeToBuy,
+  TagProductFilter,
 } from '../../../../@types/appTypes';
 import { FILTER_KEYS } from '../../../../constants/constants-app';
 import { FREQ_TIMES_TO_BUY } from '../../../../constants/constants-products';
 import {
-    ProductFilterConditions,
-    ProductFilterConditionsContext,
+  ProductFilterConditions,
+  ProductFilterConditionsContext,
 } from '../../../../providers/ProductFilterConditionsProvider/ProductFilterConditionsContext';
 import GroupRadioButtonsFreqTime from '../../../common/inputs/GroupRadioButtonsFreqTime';
 import './FormFilterProducts.scss';

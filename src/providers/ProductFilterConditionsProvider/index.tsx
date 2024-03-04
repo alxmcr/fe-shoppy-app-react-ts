@@ -1,8 +1,8 @@
 import React from 'react';
 import { FrequencyTimeToBuy, TagProductFilter } from '../../@types/appTypes';
 import {
-    ProductFilterConditionsContext,
-    ProductFilterConditionsContextData,
+  ProductFilterConditionsContext,
+  ProductFilterConditionsContextData,
 } from './ProductFilterConditionsContext';
 
 type ProductFilterConditionsProviderProps = {

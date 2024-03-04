@@ -10,12 +10,12 @@ export default function ProductListPage() {
   const { token } = React.useContext(TokenContext);
 
   return (
-      <ProductListProviders>
-        <div className="product-list-page">
-          <AppHeader title={token} subtitle="Your shopping list" />
-          <SectionProductList />
-          <FooterNavigation />
-        </div>
-      </ProductListProviders>
+    <ProductListProviders>
+      <div className="product-list-page">
+        <AppHeader title={token} subtitle="Your shopping list" />
+        <SectionProductList />
+        <FooterNavigation />
+      </div>
+    </ProductListProviders>
   );
 }

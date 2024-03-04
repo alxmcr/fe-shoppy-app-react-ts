@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-    ProductFilterModalContext,
-    ProductFilterModalContextData,
+  ProductFilterModalContext,
+  ProductFilterModalContextData,
 } from './ProductFilterModalContext';
 
 type ProductFilterModalProviderProps = {

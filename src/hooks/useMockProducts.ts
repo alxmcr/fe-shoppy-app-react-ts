@@ -3,7 +3,7 @@ import { Product } from '../@types/appTypes';
 import { LoadingStates } from '../constants/constants-app';
 
 export default function useMockProducts({ token = '' }) {
-  console.log("🚀 ~ useMockProducts ~ token:", token)
+  console.log('🚀 ~ useMockProducts ~ token:', token);
   const [products, setProducts] = React.useState<Product[]>([]);
   const [statusProducts, setStatusProducts] = React.useState(
     LoadingStates.IDLE,
