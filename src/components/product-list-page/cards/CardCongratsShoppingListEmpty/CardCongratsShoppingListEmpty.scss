@@ -1,0 +1,51 @@
+@import '../../../../variables';
+
+.card-congrats-empty {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1.2rem;
+  justify-content: center;
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__content {
+    align-items: center;
+    color: $light-secondary;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__navlink {
+    align-items: center;
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid $light-secondary;
+    border-radius: 0.5rem;
+    color: $light-secondary;
+    display: flex;
+    justify-content: center;
+    font-size: $font-size-navlink;
+    height: $link-as-button-height;
+    text-decoration: none;
+    padding: $padding-link;
+
+    &:hover {
+      background-color: $light-secondary;
+      border: 1px solid $light-secondary;
+      color: $light;
+    }
+  }
+
+  &__message,
+  &__title {
+    margin: 0;
+    text-align: center;
+  }
+}
