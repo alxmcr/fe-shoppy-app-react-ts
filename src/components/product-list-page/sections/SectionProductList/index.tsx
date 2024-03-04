@@ -4,10 +4,11 @@ import {
   ProductFilterConditionsContext,
 } from '../../../../providers/ProductFilterConditionsProvider/ProductFilterConditionsContext';
 import { ProductFilterModalContext } from '../../../../providers/ProductFilterModalProvider/ProductFilterModalContext';
+import ModalContainer from '../../../common/modals/ModalContainer';
 import BoxProductFilterTags from '../../boxes/BoxProductFilterTags';
 import BoxProductList from '../../boxes/BoxProductList';
+import ModalProductFilter from '../../modals/ModalProductFilter';
 import './SectionProductList.scss';
-import ModalContainer from '../../../common/modals/ModalContainer';
 
 export default function SectionProductList() {
   const { showFilterProductModal, setShowFilterProductModal } =
