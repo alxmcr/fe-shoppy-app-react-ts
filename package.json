@@ -12,7 +12,8 @@
     "prettier": "npx prettier src --check",
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix",
-    "test": "jest"
+    "test": "jest",
+    "test:debug": "DEBUG=nock.* jest"
   },
   "dependencies": {
     "date-fns": "^3.3.1",
