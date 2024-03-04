@@ -3,11 +3,13 @@ import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 import { FirebaseDBProductServiceImpl } from '../../../../api/FirebaseProductServiceImpl';
 import { KEY_TOKEN, LoadingStates } from '../../../../constants/constants-app';
+import { TokenContext } from '../../../../providers/TokenProvider/TokenContext';
 import FormJoinProductList from '../../forms/FormJoinProductList';
 import './BoxFormJoinProductList.scss';
 
 export default function BoxFormJoinProductList() {
   const navigate = useNavigate();
+  const { setToken } = React.useContext(TokenContext);
   const [statusJoiningList, setStatusJoiningList] = React.useState(
     LoadingStates.IDLE,
   );
@@ -29,6 +31,8 @@ export default function BoxFormJoinProductList() {
       if (existsToken) {
         // Localstorage
         localStorage.setItem(KEY_TOKEN, tokenToCheck);
+        // Token Context
+        setToken(tokenToCheck);
         // States
         setStatusJoiningList(LoadingStates.SUCCESS);
         // Toast
