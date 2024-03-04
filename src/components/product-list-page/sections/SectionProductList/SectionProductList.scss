@@ -1,0 +1,13 @@
+.section-product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 1rem;
+
+  &__details {
+    padding: 0 1rem;
+  }
+}

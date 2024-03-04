@@ -1,0 +1,23 @@
+@import '../../../../variables';
+
+.product-list-item-actions {
+  &__button {
+    align-items: center;
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid currentColor;
+    border-radius: 0.5rem;
+    color: inherit;
+    display: flex;
+    font-size: $font-size-buttons;
+    justify-content: center;
+    height: $button-delete-height;
+    width: $button-delete-width;
+
+    &:hover {
+      background-color: $dark;
+      border: 1px solid $dark;
+      color: $primary;
+    }
+  }
+}

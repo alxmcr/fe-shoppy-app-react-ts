@@ -1,0 +1,80 @@
+@import '../../../../variables';
+
+.card-filter-product-list-empty {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1.5rem;
+  justify-content: center;
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__content {
+    align-items: center;
+    color: $light-secondary;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__button,
+  &__navlink {
+    border-radius: 0.5rem;
+    font-size: $font-size-navlink;
+    height: $link-as-button-height;
+    padding: $padding-link;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    min-width: 12.5rem;
+  }
+
+  &__button {
+    border: 1px solid $dark;
+    color: $dark;
+
+    appearance: none;
+    background-color: transparent;
+
+    &:hover {
+      background-color: $light-secondary;
+      border: 1px solid $light-secondary;
+      color: $light;
+    }
+  }
+
+  &__navlink {
+    border: 1px solid $light-secondary;
+    color: $light-secondary;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $light-secondary;
+      border: 1px solid $light-secondary;
+      color: $light;
+    }
+  }
+
+  &__message {
+    color: $gray-01;
+  }
+
+  &__message,
+  &__title {
+    margin: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,36 @@
+@import '../../../../variables';
+
+.product-list-item {
+  align-items: center;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  height: $product-item-height;
+  padding: 0.5rem;
+  width: $product-item-width;
+
+  &--soon {
+    border: 2px solid $product-soon;
+    color: $product-soon;
+  }
+
+  &--kind-of-soon {
+    border: 2px solid $product-kind-of-soon;
+    color: $product-kind-of-soon;
+  }
+
+  &--not-soon {
+    border: 2px solid $product-not-soon;
+    color: $product-not-soon;
+  }
+
+  &--inactive {
+    border: 2px solid $product-inactive;
+    color: $product-inactive;
+  }
+
+  &--overdue {
+    border: 2px solid $product-overdue;
+    color: $product-overdue;
+  }
+}
