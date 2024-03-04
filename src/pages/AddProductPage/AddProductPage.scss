@@ -1,0 +1,18 @@
+@import '../../variables';
+
+.add-product-page {
+  background-color: $light;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .add-product-page {
+    margin: 0 auto;
+    width: $max-screen-width-app;
+  }
+}

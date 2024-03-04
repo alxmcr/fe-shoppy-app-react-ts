@@ -1,0 +1,24 @@
+@import '../../../../variables';
+
+.box-form-add-product {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  &__message {
+    font-size: 1rem;
+    text-align: center;
+
+    &--info {
+      color: $dark;
+    }
+
+    &--error {
+      color: $product-soon;
+    }
+
+    &--success {
+      color: $product-not-soon;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import '../../../../variables';
+
+.header {
+  background-color: $body-bg-color;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+
+  &__actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+  }
+
+  &__bottom {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    width: 18.375rem;
+
+    &-box {
+      align-items: center;
+      background-color: $dark-secondary;
+      border-radius: 0.5rem;
+      color: $light;
+      display: flex;
+      height: $height-box-token;
+      padding: 0 1rem;
+    }
+
+    &-wrapper {
+      align-items: center;
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+
+  &__button {
+    appearance: none;
+    background-color: $primary;
+    border: 1px solid $primary;
+    border-radius: 0.5rem;
+    font-size: $font-size-buttons;
+    color: $dark;
+    height: $button-join-token-height;
+    width: 100%;
+
+    &:hover {
+      background-color: $dark;
+      border: 1px solid invert($body-bg-color);
+      color: $primary;
+    }
+  }
+
+  &__top {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+  }
+
+  &__subtitle {
+    color: invert($color: $body-bg-color);
+    font-size: $font-size-h2;
+  }
+
+  &__title {
+    font-size: $font-size-h1;
+  }
+
+  &__subtitle,
+  &__title {
+    margin: 0;
+  }
+}
