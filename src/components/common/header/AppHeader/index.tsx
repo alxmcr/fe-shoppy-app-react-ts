@@ -3,6 +3,7 @@ import toast from 'react-hot-toast';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { KEY_TOKEN } from '../../../../constants/constants-app';
 import { ProductListRoute } from '../../../../constants/constants-routes';
+import { ProductFilterModalContext } from '../../../../providers/ProductFilterModalProvider/ProductFilterModalContext';
 import { TokenContext } from '../../../../providers/TokenProvider/TokenContext';
 import IconCopy from '../../../atoms/icons-medium/IconCopy';
 import IconExit from '../../../atoms/icons-medium/IconExit';
@@ -19,7 +20,9 @@ export default function AppHeader({
   subtitle = '',
 }: AppHeaderProps) {
   const { token, setToken } = React.useContext(TokenContext);
-
+  const { setShowFilterProductModal } = React.useContext(
+    ProductFilterModalContext,
+  );
   const navigate = useNavigate();
   const location = useLocation();
   const { pathname } = location;
@@ -31,7 +34,7 @@ export default function AppHeader({
   };
 
   const onClickOpenFilterModal = () => {
-    console.log('open modal');
+    setShowFilterProductModal(true);
   };
 
   const onClickCopyToken = (tokenToCopy = '') => {
