@@ -2,7 +2,7 @@ import { KIND_OF_SOON } from '../../src/constants/constants-products';
 import { ProductListRoute } from '../../src/constants/constants-routes';
 
 describe('AddProductPage e2e spec', () => {
-  const TOKEN_VALID = 'vital cling flare';
+  const TOKEN_VALID = 'clock seep yacht';
 
   beforeEach(() => {
     cy.visit('/');
