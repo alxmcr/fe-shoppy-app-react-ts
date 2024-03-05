@@ -76,7 +76,7 @@ To run tests, run the following command
 npm run test
 ```
 
-<img width="1091" alt="image" src="https://github.com/alxmcr/fe-shoppy-app/assets/8689897/496b8565-c91f-4b4d-9d6c-3e346d76c9ab">
+![Unit tests running](https://res.cloudinary.com/images-alex-projects/image/upload/v1709658461/Portfolio/assets-shoppy-app/testing/react-testing-library-jest_qxczjw.png "Unit tests running").
 
 
 - Cypress tests
@@ -85,7 +85,7 @@ npm run test
 cypress:open
 ```
 
-<img width="1512" alt="image" src="https://github.com/alxmcr/fe-shoppy-app/assets/8689897/27599d32-11c5-4289-a9a5-77abefd631e5">
+![Cypress tests running](https://res.cloudinary.com/images-alex-projects/image/upload/v1709658460/Portfolio/assets-shoppy-app/testing/testing-cypress_ragpd7.png "Cypress tests running").
 
 
 ## Screenshots
