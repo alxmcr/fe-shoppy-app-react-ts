@@ -2,8 +2,8 @@ import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import TagProductFilterList from '.';
 import {
-    filterTagFreqTime,
-    filterTagName,
+  filterTagFreqTime,
+  filterTagName,
 } from '../../../../mockData/generateFilterProductTags';
 
 describe('TagProductFilterList test', () => {
