@@ -1,5 +1,5 @@
 
-# Shoppdy App
+# Shoppy App
 
 This app learns your buying habits and helps you remember what you’re likely to need to buy on your next trip to the store.
 
@@ -111,14 +111,12 @@ cypress:open
   
 ## Demo
 
-[https://the-current-fe-shoppy-app.netlify.app/](https://the-current-fe-shoppy-app.netlify.app/)
+[https://my-shoppy-app.netlify.app/](https://my-shoppy-app.netlify.app/)
 
-  
 ## Authors
 
 - [Alejandro M. Coca Rojas (@alxmcr)](https://www.github.com/alxmcr)
 
-  
 ## Feedback
 
 If you have any feedback, please reach out to us at amcocarojas@gmail.com.
