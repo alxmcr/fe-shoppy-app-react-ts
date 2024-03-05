@@ -10,5 +10,6 @@ export default defineConfig({
 
   e2e: {
     baseUrl: "http://localhost:7007",
+    defaultCommandTimeout: 10000,
   },
 });
