@@ -8,6 +8,7 @@ module.exports = {
     browser: true,
     es2021: true,
     jest: true,
+    'cypress/globals': true,
   },
   extends: [
     'eslint:recommended',
@@ -16,6 +17,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:react/jsx-runtime',
     'plugin:jest-dom/recommended',
+    'plugin:cypress/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   overrides: [
@@ -40,6 +42,7 @@ module.exports = {
     'react',
     'testing-library',
     'jest-dom',
+    'cypress',
   ],
   rules: {
     'react-refresh/only-export-components': [
@@ -56,5 +59,12 @@ module.exports = {
     'jest-dom/prefer-enabled-disabled': 'error',
     'jest-dom/prefer-required': 'error',
     'jest-dom/prefer-to-have-attribute': 'error',
+    // Cypress
+    'cypress/no-assigning-return-values': 'error',
+    'cypress/no-unnecessary-waiting': 'error',
+    'cypress/assertion-before-screenshot': 'warn',
+    'cypress/no-force': 'warn',
+    'cypress/no-async-tests': 'error',
+    'cypress/no-pause': 'error',
   },
 };
