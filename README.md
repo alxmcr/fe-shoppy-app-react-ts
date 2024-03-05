@@ -92,22 +92,21 @@ cypress:open
 
 - Home page
 
-<img width="411" alt="image" src="https://github.com/alxmcr/fe-shoppy-app/assets/8689897/82adbf8b-e469-4df3-983d-b0b20cbdea95">
-
+![This the home page view](https://res.cloudinary.com/images-alex-projects/image/upload/v1709656838/Portfolio/assets-shoppy-app/home-page_qymap3.png "Home page screenshot").
 
 - Add product page
 
-<img width="411" alt="image" src="https://github.com/alxmcr/fe-shoppy-app/assets/8689897/e845f5e5-2360-4c09-af38-112b08e4e39f">
+![This the add product page view](https://res.cloudinary.com/images-alex-projects/image/upload/v1709656837/Portfolio/assets-shoppy-app/add-product-page_sbb2oy.png "add product page screenshot").
 
 - List products
 
-<img width="411" alt="image" src="https://github.com/alxmcr/fe-shoppy-app/assets/8689897/56ce20e2-0c8d-4d4d-9d44-d1ff71112a24">
+![This the list products page view](https://res.cloudinary.com/images-alex-projects/image/upload/v1709656838/Portfolio/assets-shoppy-app/product-list-page_yosllx.png "list products page screenshot").
 
 - Filter list products
 
-<img width="411" alt="image" src="https://github.com/alxmcr/fe-shoppy-app/assets/8689897/b28895c7-ce09-4c4d-befe-257b5a75c6da">
+![This the filter product modal](https://res.cloudinary.com/images-alex-projects/image/upload/v1709656837/Portfolio/assets-shoppy-app/filter-products_cxmpde.png "filter products modal screenshot").
 
-<img width="411" alt="image" src="https://github.com/alxmcr/fe-shoppy-app/assets/8689897/ed2b156d-28a4-4f14-87cf-a69ec0f56ee0">
+![This the filtered list products page view](https://res.cloudinary.com/images-alex-projects/image/upload/v1709656837/Portfolio/assets-shoppy-app/filter-product-results_vnhae0.png "filtered list products page screenshot").
   
 ## Demo
 
