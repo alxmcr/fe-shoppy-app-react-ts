@@ -1,33 +1,45 @@
 {
   // Theme
-  "workbench.colorTheme": "Bearded Theme Monokai Terra",
+  "workbench.colorTheme": "Rosé Pine Dawn",
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.preferredDarkColorTheme": "Rosé Pine",
+  "workbench.preferredLightColorTheme": "Quiet Light",
   // More settings...
+  "window.autoDetectColorScheme": true,
   "window.zoomLevel": 1,
+  "files.eol": "\r\n",
+  // Editor
+  "editor.stickyScroll.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.rulers": [
+      80,
+      120
+  ],
+  "workbench.colorCustomizations": {
+      "editorRuler.foreground": "#ff4081"
+  },
   "editor.fontSize": 17,
   "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-  "editor.stickyScroll.enabled": true,
   "editor.fontLigatures": true,
-  "files.eol": "\r\n",
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  /* JS */
   "javascript.referencesCodeLens.enabled": true,
   "javascript.referencesCodeLens.showOnAllFunctions": true,
+  // Typescript
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
-  "editor.guides.bracketPairs": true,
-  "editor.wordWrap": "on",
-  "editor.rulers": [80, 120],
-  "workbench.colorCustomizations": {
-    "editorRuler.foreground": "#ff4081"
-  },
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  /* Diff editor */
   "diffEditor.wordWrap": "on",
   "diffEditor.codeLens": true,
   "diffEditor.experimental.showMoves": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "[markdown]": {
-    "diffEditor.codeLens": true,
-    "diffEditor.experimental.showMoves": true
+      "diffEditor.codeLens": true,
+      "diffEditor.experimental.showMoves": true
   },
   // Enable/disable Commit signing
   "git.enableCommitSigning": false,
@@ -39,25 +51,28 @@
   // --- icon theme
   "workbench.iconTheme": "vscode-icons",
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+      "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[mdx]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "totalTypeScript.hideAllTips": true,
   "totalTypeScript.hideBasicTips": true
