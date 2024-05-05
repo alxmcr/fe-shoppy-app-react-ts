@@ -76,7 +76,7 @@ To run tests, run the following command
 npm run test
 ```
 
-![Unit tests running](https://my-shoppy-app.netlify.app/public/screenshots/testing/01-react-testing-library-jest.png "Unit tests running").
+![Unit tests running](https://my-shoppy-app.netlify.app/screenshots/testing/01-react-testing-library-jest.png "Unit tests running").
 
 
 - Cypress tests
@@ -85,28 +85,28 @@ npm run test
 cypress:open
 ```
 
-![Cypress tests running](https://my-shoppy-app.netlify.app/public/screenshots/testing/02-testing-cypress.png "Cypress tests running").
+![Cypress tests running](https://my-shoppy-app.netlify.app/screenshots/testing/02-testing-cypress.png "Cypress tests running").
 
 
 ## Screenshots
 
 - Home page
 
-![This the home page view](https://my-shoppy-app.netlify.app/public/screenshots/views/01-home-page.png "Home page screenshot").
+![This the home page view](https://my-shoppy-app.netlify.app/screenshots/views/01-home-page.png "Home page screenshot").
 
 - Add product page
 
-![This the add product page view](https://my-shoppy-app.netlify.app/public/screenshots/views/02-add-product-page.png "add product page screenshot").
+![This the add product page view](https://my-shoppy-app.netlify.app/screenshots/views/02-add-product-page.png "add product page screenshot").
 
 - List products
 
-![This the list products page view](https://my-shoppy-app.netlify.app/public/screenshots/views/03-product-list-page.png "list products page screenshot").
+![This the list products page view](https://my-shoppy-app.netlify.app/screenshots/views/03-product-list-page.png "list products page screenshot").
 
 - Filter list products
 
-![This the filter product modal](https://my-shoppy-app.netlify.app/public/screenshots/views/04-filter-products-modal.png "filter products modal screenshot").
+![This the filter product modal](https://my-shoppy-app.netlify.app/screenshots/views/04-filter-products-modal.png "filter products modal screenshot").
 
-![This the filtered list products page view](https://my-shoppy-app.netlify.app/public/screenshots/views/05-filter-product-results.png "filtered list products page screenshot").
+![This the filtered list products page view](https://my-shoppy-app.netlify.app/screenshots/views/05-filter-product-results.png "filtered list products page screenshot").
   
 ## Demo
 
