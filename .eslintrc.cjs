@@ -10,15 +10,7 @@ module.exports = {
     jest: true,
     'cypress/globals': true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:jest-dom/recommended',
-    'plugin:cypress/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:react/jsx-runtime', 'plugin:jest-dom/recommended', 'plugin:cypress/recommended', 'plugin:storybook/recommended'],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   overrides: [
     {
